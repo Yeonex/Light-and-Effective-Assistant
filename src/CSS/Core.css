@@ -1,0 +1,29 @@
+.root{
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.root:hover{
+    -fx-border-color: rgba(0,255,255,0.3);
+    -fx-background-color: rgba(0,0,0,0.1);
+}
+
+.warning.text{
+    -fx-stroke: firebrick;
+}
+
+.button{
+    -fx-border-color: transparent;
+}
+#warning{
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+#notification{
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}

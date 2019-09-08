@@ -1,0 +1,7 @@
+#accountBtn :hover{
+    -fx-cursor: hand;
+}
+
+#settingsButton :hover{
+    -fx-cursor: hand;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.NotificationController">
+   <children>
+      <AnchorPane prefHeight="39.0" prefWidth="625.0" style="-fx-background-color: #323C47;">
+         <children>
+            <Button fx:id="dismissAll" layoutX="94.0" layoutY="7.0" mnemonicParsing="false" text="Dismiss all" />
+            <Button fx:id="dismiss" layoutX="175.0" layoutY="7.0" mnemonicParsing="false" text="Dismiss Selected" />
+            <Button fx:id="refreshBtn" layoutX="14.0" layoutY="7.0" mnemonicParsing="false" text="Refresh 🗘" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="text" layoutX="236.0" layoutY="190.0" text="No notifications">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listView" layoutY="39.0" prefHeight="382.0" prefWidth="625.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,2 @@
+Critical
+1: Null in version number LOC: Core.Updater

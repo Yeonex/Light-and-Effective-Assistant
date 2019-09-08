@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="105.0" prefWidth="202.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Player">
+   <children>
+      <Button fx:id="btnPlay" layoutX="14.0" layoutY="74.0" mnemonicParsing="false" text="Play" />
+      <Button fx:id="btnStop" layoutX="60.0" layoutY="74.0" mnemonicParsing="false" text="Stop" />
+      <Button fx:id="btnBack" layoutX="110.0" layoutY="74.0" mnemonicParsing="false" text="Prev" />
+      <Button fx:id="btnNext" layoutX="156.0" layoutY="74.0" mnemonicParsing="false" text="Forv" />
+      <Slider layoutX="11.0" layoutY="53.0" prefHeight="14.0" prefWidth="184.0" />
+      <Label fx:id="trackName" layoutX="19.0" layoutY="24.0" prefHeight="17.0" prefWidth="162.0" text="Label" />
+   </children>
+</AnchorPane>

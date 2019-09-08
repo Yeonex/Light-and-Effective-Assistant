@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="761.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <WebView layoutY="40.0" minHeight="516.0" minWidth="761.0" prefHeight="516.0" prefWidth="761.0" />
+      <Button layoutX="8.0" layoutY="8.0" mnemonicParsing="false" text="whats App" />
+      <Button layoutX="99.0" layoutY="8.0" mnemonicParsing="false" text="Viber" />
+      <Button layoutX="162.0" layoutY="8.0" mnemonicParsing="false" text="Telegram" />
+      <Button layoutX="245.0" layoutY="8.0" mnemonicParsing="false" text="Messanger" />
+   </children>
+</AnchorPane>

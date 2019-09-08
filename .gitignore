@@ -1,0 +1,4 @@
+*.rar
+out/*
+.idea/*
+*.psd

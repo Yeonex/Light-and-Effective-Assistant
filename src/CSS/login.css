@@ -1,0 +1,28 @@
+
+
+#houseDef{
+   -fx-background-color: Black;
+}
+
+#houseSel{
+    -fx-effect: innershadow( gaussian , green , 7 , 1 , 1 , 1 );
+}
+
+#globDef{
+    -fx-background-color: black;
+}
+
+#globSel{
+    -fx-effect: innershadow( gaussian , green , 7 , 1 , 1 , 1 );
+}
+#exitApp:hover{
+    -fx-cursor: hand;
+}
+
+#createLocalAccount:hover{
+    -fx-cursor: hand;
+}
+
+#agreedToTOS :hover{
+    -fx-cursor: hand;
+}

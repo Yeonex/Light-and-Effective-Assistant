@@ -1,0 +1,18 @@
+//JSGF Grammar file output!
+
+#JSGF V1.0;
+
+grammar grammar;
+
+
+
+public <voiceCommand> = <trigger> <name> <operation>  (<commands> | <apps>) | <NULL>;
+public <trigger> = (hey);
+public <name> = (lea);
+<operation> = (open | close | show | hide | <NULL> );
+<commands> = ( browser | paint | c_m_d | terminal | stop | joke |kill | menu | weather);
+<apps> =(open | close) ( app music | app to do list | app web history | settings );
+
+
+
+

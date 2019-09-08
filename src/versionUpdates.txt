@@ -1,0 +1,21 @@
+Patch notes for LEA
+0.02
+----------------------------------
+Fixed Settings not displaying properly
+Fixed Clock not disbleing 
+Fixed invisble background error
+Fixed allways on top error
+Fixed Clock color not able to change
+Fixed Notifications not updating with new notifcations
+------------------------------------
+0.03
+-----------------------------------
+Calender application scraped due to user feedback
+Calender changed to notes
+Allowes for custom assistant names!
+-----------------------------------
+0.04
+-----------------------------------
+sending files over local network!
+----------------------------------
+0.05

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Login">
+   <children>
+      <AnchorPane id="localUserButton" fx:id="localUserMenu" prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #3d4956;">
+         <children>
+            <ImageView id="house" fx:id="house" fitHeight="29.0" fitWidth="68.0" layoutX="286.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Untitled-1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="244.0" layoutY="48.0" text="Greetings Traveler" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="localUserMenuScreen" layoutY="73.0" prefHeight="327.0" prefWidth="600.0" style="-fx-background-color:WHITE  ;">
+         <children>
+            <Label layoutX="18.0" layoutY="26.0" text="Before you can start using LEA please note the following:">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="createLocalAccount" layoutX="253.0" layoutY="284.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" style="-fx-border-radius: 0.5em; -fx-background-radius: 0.5em; -fx-background-color: #6EFE16;" text="Lets Start!" />
+            <CheckBox fx:id="agreedToTOS" layoutX="241.0" layoutY="245.0" mnemonicParsing="false" text="Agree to ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </CheckBox>
+            <Hyperlink fx:id="TOSLink" layoutX="320.0" layoutY="241.0" text="ToS" underline="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Hyperlink>
+            <Label layoutX="25.0" layoutY="53.0" text="※LEA will generate a config file in System prefrence.">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="81.0" text="※ An Internet connection will be needed for specific features">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="107.0" text="※ On start up LEA will connect to a web server to check for updates">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="133.0" text="※To pair your mobile deivce, you need to have following           installed!">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="TOSLink1" layoutX="359.0" layoutY="127.0" text="app" underline="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Hyperlink>
+            <Label layoutX="25.0" layoutY="158.0" text="※LEA is able to understand voice commands and will require a microphone">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="185.0" text="※LEA is able to understand voice commands and will require a microphone">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="exitApp" layoutX="253.0" layoutY="284.0" mnemonicParsing="false" style="-fx-border-radius: 0.5em; -fx-background-radius: 0.5em; -fx-background-color: #eda678;" text="Close program" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

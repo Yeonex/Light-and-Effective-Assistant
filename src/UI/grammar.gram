@@ -1,0 +1,11 @@
+//JSGF Grammar file output!
+
+#JSGF V1.0;
+
+grammar grammar;
+
+public <trigger> = (lea);
+public <commands> = ( open browser | open paint | open cmd | open terminal | stop);
+public <apps> = ( app music | app to do list | app web history);
+
+

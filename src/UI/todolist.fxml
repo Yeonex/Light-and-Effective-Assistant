@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.5" orientation="VERTICAL" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Core.ToDoList">
+   <items>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="945.0">
+         <children>
+            <Button fx:id="addEventbtn" layoutY="11.0" mnemonicParsing="false" text="Add Event" />
+            <DatePicker fx:id="datePicker" layoutX="82.0" layoutY="11.0" prefHeight="25.0" prefWidth="161.0" />
+            <TextField fx:id="eventText" layoutX="253.0" layoutY="11.0" prefHeight="25.0" prefWidth="518.0" />
+            <Button fx:id="editBtn" layoutX="778.0" layoutY="11.0" mnemonicParsing="false" text="Edit Event" />
+            <Button fx:id="deleteBtn" layoutX="855.0" layoutY="11.0" mnemonicParsing="false" text="Delete Event" />
+            <Button fx:id="confirmBtn" layoutX="778.0" layoutY="11.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Confirm" />
+         </children>
+      </AnchorPane>
+      <ListView fx:id="eventsListView" prefHeight="345.0" prefWidth="936.0" />
+   </items>
+</SplitPane>

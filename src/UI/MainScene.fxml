@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.MainScene">
+   <children>
+      <ImageView fx:id="clock" fitHeight="80.0" fitWidth="210.0" layoutX="20.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/test.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="avatar" fitHeight="117.0" fitWidth="140.0" layoutX="54.0" layoutY="94.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/admin.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="bindToFixture" layoutX="54.0" layoutY="94.0" prefHeight="117.0" prefWidth="140.0" />
+      <Button fx:id="updateButton" layoutX="111.0" layoutY="2.0" mnemonicParsing="false" text="📥" />
+      <Label fx:id="syncLable" layoutX="203.0" layoutY="96.0" text="Label" />
+      <Label fx:id="batteryStatus" layoutX="212.0" layoutY="6.0" text="Label" />
+      <Button fx:id="menu" layoutX="73.0" layoutY="215.0" mnemonicParsing="false" text="☰" />
+      <Button fx:id="sync" layoutX="10.0" layoutY="215.0" mnemonicParsing="false" text="Sync" />
+      <Button fx:id="settings" layoutX="147.0" layoutY="215.0" mnemonicParsing="false" text="⚙" />
+      <Button fx:id="exit" layoutX="109.0" layoutY="215.0" mnemonicParsing="false" text=" X " />
+      <Label fx:id="clockTopLable" layoutX="80.0" layoutY="42.0" text="Thu 27 Dec 2018" textFill="WHITE" />
+      <Label fx:id="clockBottomLable" layoutX="106.0" layoutY="61.0" text="00 : 00" textFill="WHITE" />
+      <Label fx:id="dorn" layoutX="87.0" layoutY="61.0" text="Label" textFill="WHITE" />
+      <Button fx:id="voice" layoutX="194.0" layoutY="215.0" mnemonicParsing="false" text="Voice" />
+      <Button fx:id="notification" mnemonicParsing="false" text="Button" />
+      <Button fx:id="warning" layoutX="9.0" layoutY="93.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

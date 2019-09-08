@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Settings">
+   <children>
+      <AnchorPane fx:id="accountBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #323C47;">
+         <children>
+            <ImageView fitHeight="63.0" fitWidth="60.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/user-512.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane fx:id="settingsButton" layoutY="80.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #323C47;">
+         <children>
+            <ImageView fitHeight="51.0" fitWidth="52.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/edit.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutY="160.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #323C47;" />
+      <AnchorPane layoutY="240.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #323C47;" />
+      <AnchorPane layoutY="320.0" prefHeight="116.0" prefWidth="80.0" style="-fx-background-color: #323C47;" />
+      <AnchorPane fx:id="AccountMenu" layoutX="80.0" prefHeight="400.0" prefWidth="520.0">
+         <children>
+            <Label fx:id="localID" layoutX="35.0" layoutY="73.0" text="ID 0000000000" />
+            <Label layoutX="199.0" layoutY="40.0" text="Assistant configuration" />
+            <Label fx:id="leaIPadress" layoutX="35.0" layoutY="103.0" text="Label" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="settingsOne" layoutX="80.0" prefHeight="433.0" prefWidth="545.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <CheckBox fx:id="alwaysOnTop" layoutX="14.0" layoutY="25.0" mnemonicParsing="false" text="Always on Top" />
+            <CheckBox fx:id="DisableNotifcations" layoutX="156.0" layoutY="25.0" mnemonicParsing="false" text="Disable Notifications" />
+            <RadioButton fx:id="avaDef" layoutX="20.0" layoutY="112.0" mnemonicParsing="false" text="Default" />
+            <RadioButton fx:id="avaNier" layoutX="149.0" layoutY="112.0" mnemonicParsing="false" text="Nier" />
+            <RadioButton fx:id="avaFestive" layoutX="260.0" layoutY="112.0" mnemonicParsing="false" text="Festive" />
+            <RadioButton fx:id="avaCustom" layoutX="382.0" layoutY="112.0" mnemonicParsing="false" text="Custom" />
+            <Label layoutX="20.0" layoutY="88.0" text="Change Avatar" />
+            <TextField fx:id="pathURL" layoutX="50.0" layoutY="146.0" prefHeight="25.0" prefWidth="320.0" />
+            <Label fx:id="pathLable" layoutX="20.0" layoutY="150.0" text="Path: " />
+            <Button fx:id="findBtn" layoutX="370.0" layoutY="146.0" mnemonicParsing="false" text="Find" />
+            <Button fx:id="confirmBtn" layoutX="409.0" layoutY="146.0" mnemonicParsing="false" text="Confirm" />
+            <ColorPicker fx:id="colorPicker" layoutX="122.0" layoutY="191.0" />
+            <Label layoutX="21.0" layoutY="195.0" text="Background color" />
+            <CheckBox fx:id="hideBackground" layoutX="14.0" layoutY="56.0" mnemonicParsing="false" text="Invisible Background" />
+            <CheckBox fx:id="disbaleClock" layoutX="157.0" layoutY="56.0" mnemonicParsing="false" text="Disable Clock" />
+            <CheckBox fx:id="hideAvatar" layoutX="300.0" layoutY="25.0" mnemonicParsing="false" text="Hide Avatar" />
+            <CheckBox fx:id="swapAvaClock" layoutX="300.0" layoutY="56.0" mnemonicParsing="false" text="Swap Avatar &amp; Clock" />
+            <Label layoutX="21.0" layoutY="240.0" text="Clock Color" />
+            <ImageView fx:id="clockprev" fitHeight="73.0" fitWidth="149.0" layoutX="13.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/test.png" />
+               </image>
+            </ImageView>
+            <Slider fx:id="slider" blockIncrement="0.1" layoutX="173.0" layoutY="274.0" majorTickUnit="0.25" max="1.0" min="-1.0" minorTickCount="0" />
+            <Label layoutX="28.0" layoutY="326.0" text="Assistant name" />
+            <TextField fx:id="nameText" layoutX="24.0" layoutY="349.0" text="LEA" />
+            <Button fx:id="confirmHue" layoutX="321.0" layoutY="268.0" mnemonicParsing="false" text="Confirm" />
+            <Button fx:id="nameChnager" layoutX="184.0" layoutY="349.0" mnemonicParsing="false" text="Change Name" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
